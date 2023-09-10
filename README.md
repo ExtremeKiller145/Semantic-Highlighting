@@ -10,8 +10,12 @@
 Colorizes each variable with their individual color.
 Works with *any language* that has semantic tokens.
 
+Will cycle through the list of colors based on the character length of the variable. 
+For example, a 4-character variable will use the fourth color. If there are only 2 colors in the list, a 3-character variable would use the first color.
+
 Color used for the variables can be customized in the settings.
 The extension can be toggled on/off be using the command "Toggle semantic highlighting" (needs a modification of the file to trigger).
+
 
 ## Features
 
